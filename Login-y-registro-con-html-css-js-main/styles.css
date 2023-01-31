@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+video{
+
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+
+}
+
+.containerHeader{
+    max-width: 100%;
+    max-height: 900px;
+    background-color:rgba(248,249,250,255);
+    display: flex;
+    flex-direction: row;
+    animation:fadeInDown; 
+    animation-duration: 3s; 
+    
+}
+
+.containerHeader h1{
+    margin: 20px;
+    margin-top: 80px;    
+    font-size: 30px;
+    
+}
+
+.containerHeader img{
+
+
+    width: 500px;
+    margin: 20px;
+    border-radius: 20px;
+    animation:fadeInDown; 
+    animation-duration: 2s;
+   
+}
+
+.descripcion p{
+    margin: 20px;
+}
+
+.descripcion button{
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(40,40,49,255);
+    color: rgba(255, 255, 255, 255);
+    
+}
+
+.container{
+    margin-top: 80px;
+    
+}
+
+.container i{
+
+    font-size: 20px;
+
+}
+
+.instrucciones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.instrucciones img{
+    
+    width: 60%;
+    margin-left: 10px;
+    margin-left: 50px;
+    
+    
+
+}
+
+.card{
+
+    padding: 20px;
+    margin-left: 10px;
+    
+}
+
+
+
+.card2{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+  
+  
+}
+
+.v-line{
+
+    border-left:  solid #000;
+    height: 50%;
+    left: 50%;
+    position: absolute;
+
+}
+
+.card3{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    margin-top: 200px;
+    margin-left: 200px;
+    
+  }
+
+  .contacto{
+    width: 50%;
+    padding: 50px;
+  }
+
+  .container2{
+
+    
+    height: 500px;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: 100px;
+    padding: 20px;
+    color: rgba(255, 255, 255, 255);
+    
+  }
+
+  .v-line2{
+
+    border-left:  solid #000;
+    height: 20%;
+    left: 50%;
+    position: absolute;
+    margin-top: -300px;
+
+}
+
+  form{
+
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    float: right;
+    margin-top: -400px;
+    
+
+  }
+
+ form input[type='text'] , input[type='number']{
+  
+   padding: 10px;
+   margin: 5px;
+   background-color: rgba(40,40,49,0.7);
+   border: none;
+   color: rgba(255, 255, 255, 255);
+
+  }
+
+  textarea{
+    background-color: rgba(40,40,49,0.7);
+    color: rgba(255, 255, 255, 255);
+    padding: 10px;
+  }
+
+  .botonEnviar{
+
+       width: 70%;
+       border: none;
+       margin-top: 100px;
+       padding: 5px;
+       background-color: rgba(40,40,49,255);
+       color: rgba(255, 255, 255, 255);
+
+  }
+
+  footer{
+    
+    max-width: 100%;
+    height: 500px; 
+    background-color:rgba(40,40,49,255);
+    font-size: 10px;
+
+}
+
+.ul,.li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.line{
+    width: 30%;
+    margin-top: 60px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.redes{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 255);
+    font-size: 30px;
+
+}
+
+.pieDePagina{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nosotros{
+
+    width: 20%;
+    color: rgba(255, 255, 255, 255);
+    margin: 100px;
+    
+}
+
+.mision{
+    width: 20%;
+    color: rgba(255, 255, 255, 255);
+    margin: 100px;
+}
+
+
+
+  @media only screen and (max-width: 812px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    video{
+    
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: -1;
+    
+    }
+    
+    .containerHeader{
+        max-width: 100%;
+        max-height: 900px;
+        background-color:rgba(248,249,250,255);
+        display: flex;
+        flex-direction: column;
+        animation:fadeInDown; 
+        animation-duration: 3s; 
+        
+    }
+    
+    .containerHeader h1{
+        margin: 20px;
+        margin-top: 80px;    
+        font-size: 30px;
+        
+    }
+    
+    .containerHeader img{
+    
+    
+        width: 500px;
+        margin: 20px;
+        border-radius: 20px;
+        animation:fadeInDown; 
+        animation-duration: 2s;
+       
+    }
+    
+    .descripcion p{
+        margin: 20px;
+    }
+    
+    .descripcion button{
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 10px;
+        padding: 10px;
+        border: none;
+        background-color: rgba(40,40,49,255);
+        color: rgba(255, 255, 255, 255);
+        
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        height: 500px; 
+        background-color:rgba(40,40,49,255);
+        font-size: 10px;
+
+    }
+
+    
+
+    
+
+    /* Esto esto de aquí para arriba es el header */
+
+    .container{
+        margin-top: 80px;
+        
+    }
+    
+    .container i{
+    
+        font-size: 20px;
+    
+    }
+    
+    .instrucciones{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 80px;
+       
+    }
+    
+    .instrucciones img{
+        
+        width: 60%;
+        margin-left: 10px;
+        margin-left: 50px;
+        
+        
+    
+    }
+    
+    .card{
+    
+        padding: 20px;
+        margin-left: 10px;
+        margin: 10px;
+        
+    }
+
+    .container2{
+    
+        
+        height: 100%;
+        background-color:rgba(0, 0, 0, 0.5);
+        margin: 0px;
+        padding: 100px;
+        color: rgba(255, 255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        
+      }
+
+      .contacto{
+        width: 100%;
+        text-align: center;
+        margin-top: -100px;
+      }
+    
+      .v-line2{
+    
+        
+        height: 50%;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 200px;
+        
+
+      }  
+     
+      form{
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: -20px;
+        
+    
+      }
+    
+     form input[type='text'] , input[type='number']{
+      
+       padding: 10px;
+       margin: 5px;
+       background-color: rgba(40,40,49,0.7);
+       border: none;
+       color: rgba(255, 255, 255, 255);
+    
+      }
+    
+      textarea{
+        background-color: rgba(40,40,49,0.7);
+        color: rgba(255, 255, 255, 255);
+        padding: 10px;
+      }
+    
+      .botonEnviar{
+    
+          background-color: rgba(40,40,49,255);
+          color: rgba(255, 255, 255, 255);
+           width: 40%;
+           border: none;
+           position: absolute;
+           margin-top: 510px;
+           display: flex;
+           justify-content: center;
+           padding: 5px;
+    
+      }
+
+  }
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
